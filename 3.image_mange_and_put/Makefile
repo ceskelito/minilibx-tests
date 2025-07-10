@@ -1,4 +1,4 @@
-NAME = image_creation_and_edit
+NAME = image_put
 SOURCE = $(NAME).c
 OBJ = $(NAME).o
 CC = gcc
