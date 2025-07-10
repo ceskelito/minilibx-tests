@@ -1,13 +1,12 @@
 NAME = putsquare
 SOURCE = $(NAME).c
 OBJ = $(NAME).o
-LIB = imglib
 
 LIBDIR = ../imglib
 
 INC_PATHS = -I../minilibx_linux -I$(LIBDIR)
 LIB_PATHS = -L../minilibx_linux -L$(LIBDIR)
-LIBRARIES = -lmlx_Linux -lXext -lX11 -l$(LIB)
+LIBRARIES = -lmlx_Linux -lXext -lX11 -limglib
 
 CFLAGS = -Wall -Wextra -Werror
 CC = gcc
