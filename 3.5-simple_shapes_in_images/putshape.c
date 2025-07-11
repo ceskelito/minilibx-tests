@@ -35,7 +35,26 @@ void img_put_square(t_data *img, int size, int x, int y, int color)
     }
 }
 
-void img_put_circle(t_data *img, int radius, int x, int y, int color)
+void img_put_circle(t_data *img, int radius, int x_center, int y_center, int color)
+{
+    int     i;
+    int     x_p, y_p;
+    float   angle;
+    int     n_points = 2 * M_PI * radius;
+
+    for (i = 0; i < n_points; i++)
+    {
+        angle = (2 * M_PI * i) / n_points;
+        x_p = (int)(x_center + radius * cos(angle));
+        y_p = (int)(y_center + radius * sin(angle));
+
+        // Protezione contro accessi fuori immagine (1920x1080 hardcoded, oppure usa img->width/height)
+        if (x_p >= 0 && x_p < 1920 && y_p >= 0 && y_p < 1080)
+            img_put_pixel(img, x_p, y_p, color);
+    }
+}
+
+void img_put_circle_not_working(t_data *img, int radius, int x, int y, int color)
 {
 	int		t;
 	float	x_p;
@@ -65,7 +84,7 @@ int	main(void)
 								&img.endian);
 
 	img_put_square(&img, 200, 100, 100, COLOR_GREEN);
-	img_put_circle(&img, 200, 400, 100, COLOR_RED);
+	img_put_circle(&img, 100, 450, 200, COLOR_RED);
 
 	mlx_put_image_to_window(mlx, window, img.img, 0, 0);
 
