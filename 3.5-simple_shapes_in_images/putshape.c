@@ -1,6 +1,7 @@
 #include "mlx.h"
 #include "colors.h"
 #include "imglib.h"
+#include <math.h>
 
 /**
  * Draws a square outline on the image.
@@ -34,6 +35,21 @@ void img_put_square(t_data *img, int size, int x, int y, int color)
     }
 }
 
+void img_put_circle(t_data *img, int radius, int x, int y, int color)
+{
+	int		t;
+	float	x_p;
+	float	y_p;
+	int		n_points;
+	
+	n_points = (int)(2 * M_PI * radius);
+	for(t = 0; t < (int)(2 * M_PI) ; t += (int)(2 * M_PI / n_points))
+	{
+		x_p = x + radius * cos(t);
+		y_p = y + radius * sin(t);
+		img_put_pixel(img, x_p, y_p, color);
+	}
+}
 
 int	main(void)
 {
@@ -48,7 +64,8 @@ int	main(void)
 	img.addr = mlx_get_data_addr(img.img, &img.bits_per_pixel, &img.line_lenght,
 								&img.endian);
 
-	img_put_square(&img, 200, 100, 100, COLOR_BLUE);
+	img_put_square(&img, 200, 100, 100, COLOR_GREEN);
+	img_put_circle(&img, 200, 400, 100, COLOR_RED);
 
 	mlx_put_image_to_window(mlx, window, img.img, 0, 0);
 

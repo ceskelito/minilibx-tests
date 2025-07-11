@@ -1,4 +1,4 @@
-NAME = putsquare
+NAME = putshape
 SOURCE = $(NAME).c
 OBJ = $(NAME).o
 
@@ -6,7 +6,7 @@ LIBDIR = ../imglib
 
 INC_PATHS = -I../minilibx_linux -I$(LIBDIR)
 LIB_PATHS = -L../minilibx_linux -L$(LIBDIR)
-LIBRARIES = -lmlx_Linux -lXext -lX11 -limglib
+LIBRARIES = -lmlx_Linux -lXext -lX11 -limglib -lm
 
 CFLAGS = -Wall -Wextra -Werror
 CC = gcc
