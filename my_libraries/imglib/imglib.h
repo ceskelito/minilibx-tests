@@ -16,7 +16,8 @@ typedef struct s_data {
 } t_data;
 
 int		img_get_offset(t_img *img, int x, int y);
-void	img_pixel_put(t_img *img, int x, int y, int color);
+void	img_put_pixel(t_data *data, int x, int y, int color);
 void	img_init(t_img *img, void *mlx, int x_length, int y_length);
+void	img_init_data(t_data *data, void *mlx, int x_length, int y_length);
 
 #endif
