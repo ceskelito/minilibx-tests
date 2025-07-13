@@ -1,4 +1,4 @@
-include variables.mk
+include ../variables.mk
 
 NAME = putshape
 SOURCE = $(NAME).c
@@ -11,28 +11,32 @@ LIBRARIES = -limglib -lmlx_Linux -lXext -lX11 -lm
 CFLAGS = -Wall -Wextra -Werror
 CC = gcc
 
-all : $(NAME)
+all: $(NAME)
 
-%.o : %.c
+%.o: %.c
 	$(CC) $(CFLAGS) -c $< $(INC_PATHS) -o $@
 
-$(NAME) : $(OBJ) imglib mlxlib
+$(NAME): $(OBJ) imglib mlxlib
 	$(CC) $(CFLAGS) $(OBJ) $(LIB_PATHS) $(LIBRARIES) -o $@
 
-mlxlib : 
+mlxlib: 
 	make -C $(MLXLIB_DIR)
 
-imglib :
+imglib:
 	make -C $(IMGLIB_DIR)
 
-clean :
+clean:
 	rm -f $(OBJ)
+
+deeclean: clean
 	make clean -C $(IMGLIB_DIR)
 	make clean -C $(MLXLIB_DIR)
 
-fclean : clean
+fclean: clean
 	rm -f $(NAME)
+
+deepfclean: fclean
 	make fclean -C $(IMGLIB_DIR)
 	make clean -C $(MLXLIB_DIR) # The mlx makefile haven't the fclean rule
 
-re : fclean all
+re : all clean fclean deepclean deepfclean imglib mlxlib
