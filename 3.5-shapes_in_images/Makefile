@@ -1,9 +1,8 @@
+include variables.mk
+
 NAME = putshape
 SOURCE = $(NAME).c
 OBJ = $(NAME).o
-
-IMGLIB_DIR = ../imglib
-MLXLIB_DIR = ../minilibx-linux
 
 INC_PATHS = -I$(MLXLIB_DIR) -I$(IMGLIB_DIR)
 LIB_PATHS = -L$(MLXLIB_DIR) -L$(IMGLIB_DIR)

@@ -74,20 +74,17 @@ int	main(void)
 {
 	void	*mlx;
 	void	*window;
-	t_data	square;
-	t_data	circle;
+	t_data	shape;
 
 	mlx = mlx_init();
 	window = mlx_new_window(mlx, 1920, 1080, "Hello, Square!");
 
-	img_init_data(&circle, mlx, 1920, 1080);
-	img_init_data(&square, mlx, 1920, 1080);
+	img_init_data(&shape, mlx, 1920, 1080);
 
-	img_put_square(&square, 200, 100, 100, COLOR_GREEN);
-	img_put_circle(&circle, 100, 450, 200, COLOR_RED);
+	img_put_square(&shape, 200, 100, 100, COLOR_GREEN);
+	img_put_circle(&shape, 100, 450, 200, COLOR_RED);
 
-	mlx_put_image_to_window(mlx, window, square.img, 0, 0);
-	mlx_put_image_to_window(mlx, window, circle.img, 0, 0);
+	mlx_put_image_to_window(mlx, window, shape.img, 0, 0);
 
 	mlx_loop(mlx);
 }
