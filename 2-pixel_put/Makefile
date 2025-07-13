@@ -1,24 +1,28 @@
+include ../variables.mk
+
 NAME = pixel_put
 SOURCE = $(NAME).c
 OBJ = $(NAME).o
-CC = gcc
-INC_PATH = -I../minilibx_linux
-LIB_PATH = -L../minilibx_linux
+
+INC_PATH = -I$(MLXLIB_DIR)
+LIB_PATH = -L$(MLXLIB_DIR)
 LIBRARIES = -lmlx_Linux -lXext -lX11
 # CFLAS = -Wall -Wextra -Werror
 
 all:$(NAME)
 
 %.o:%.c
-	$(CC) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< $(INC_PATH) -o $@
 
 $(NAME):$(OBJ)
 	$(CC) $^ $(INC_PATH) $(LIB_PATH) $(LIBRARIES) -o $@
 
 clean:
-	rm -f $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	$(RM) $(NAME)
 
 re: fclean all
+
+.PHONY: clean fclean all re

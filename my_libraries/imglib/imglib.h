@@ -12,7 +12,11 @@ typedef struct s_img {
 typedef struct s_data {
 	void	*mlx_ptr;
 	void	*win_ptr;
-	t_img	img;
+	void	*img;
+	char	*addr;
+	int	bits_per_pixel;
+	int	line_length;
+	int	endian;
 } t_data;
 
 int		img_get_offset(t_img *img, int x, int y);

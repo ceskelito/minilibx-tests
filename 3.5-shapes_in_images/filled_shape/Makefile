@@ -8,9 +8,6 @@ INC_PATHS = -I$(MLXLIB_DIR) -I$(IMGLIB_DIR) -I$(COLORS_DIR)
 LIB_PATHS = -L$(MLXLIB_DIR) -L$(IMGLIB_DIR) -L$(COLORS_DIR)
 LIBRARIES = -limglib -lcolors -lmlx_Linux -lXext -lX11 -lm
 
-CFLAGS = -Wall -Wextra -Werror
-CC = gcc
-
 all: $(NAME)
 
 %.o: %.c
@@ -45,3 +42,5 @@ deepfclean: fclean
 	make clean -C $(MLXLIB_DIR) # The mlx makefile haven't the fclean rule
 
 re : all clean fclean deepclean deepfclean imglib colors mlxlib
+
+.PHONY: clean fclean all deepclean deepfclean imglib colors mlxlib
