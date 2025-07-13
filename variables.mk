@@ -11,4 +11,4 @@ MKDIR	= mkdir -p
 MY_LIBS_DIR	= $(ROOT)/my_libraries
 MLXLIB_DIR	= $(ROOT)/minilibx-linux
 IMGLIB_DIR	= $(MY_LIBS_DIR)/imglib
-COLORS_DIR	= $(MY_LIBS_DIR)/imglib
+COLORS_DIR	= $(MY_LIBS_DIR)/colors

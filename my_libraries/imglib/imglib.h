@@ -1,22 +1,24 @@
 #ifndef IMGLIB_H
 # define IMGLIB_H
 
-typedef struct s_img {
+# define MLX_ERROR 1
+
+typedef struct s_image {
 	void    *img;
 	char    *addr;                                                            
-	int     bits_per_pixel;
-	int     line_length;
+	int     bpp; //bits per pxel
+	int     line_len;
 	int     endian; 
-} t_img;
+} t_image;
 
 typedef struct s_data {
 	void	*mlx_ptr;
 	void	*win_ptr;
-	t_img	img;
+	t_image	img;
 } t_data;
 
-int		img_get_offset(t_img *img, int x, int y);
-void	img_pixel_put(t_img *img, int x, int y, int color);
-void	img_init(t_img *img, void *mlx, int x_length, int y_length);
+int		img_get_offset(t_image *img, int x, int y);
+void	img_pixel_put(t_image *img, int x, int y, int color);
+void	img_create(t_data *data, int img_length, int img_heigth);
 
 #endif
