@@ -2,7 +2,7 @@ NAME = libimglib.a
 SOURCE = imglib.c
 OBJ = imglib.o
 
-INC_PATHS = -I../minilibx-linux
+INC_PATHS = -I../../minilibx-linux
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror

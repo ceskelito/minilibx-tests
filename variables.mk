@@ -12,3 +12,4 @@ CFLAGS	= -Wall -Wextra -Werror
 MLXLIB_DIR		= $(ROOT)/minilibx-linux
 IMGLIB_DIR		= $(ADDITIVE_LIBS)/imglib
 COLORS_DIR		= $(ADDITIVE_LIBS)/colors
+MLXLIBWRAPPER_DIR	= $(ADDITIVE_LIBS)/mlxlib
