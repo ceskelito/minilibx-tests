@@ -1,4 +1,4 @@
-include ../variables.mk
+include ../../variables.mk
 
 NAME = close_on_esc
 
@@ -8,7 +8,7 @@ LIBRARIES = -lmlx_Linux -lXext -lX11 -limglib -lcolors
 
 SRCS = close_on_esc.c
 
-OBJS =  $(SRCS:%.c=%.o)
+OBJS =  $(patsubst %.c,%.o,$(SRCS))
 
 all: $(NAME)
 
@@ -22,7 +22,7 @@ mlxlib:
 	$(MAKE) -C $(MLXLIB_DIR)
 
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
