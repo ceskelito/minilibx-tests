@@ -2,3 +2,4 @@ mlx
 *.o
 *.a
 *.out
+*.json
