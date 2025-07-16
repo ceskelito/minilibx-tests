@@ -1,5 +1,5 @@
-mlx
 *.o
 *.a
 *.out
 *.json
+tags
