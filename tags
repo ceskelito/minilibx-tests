@@ -1,0 +1,453 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COLORDEF_H	my_libraries/colors/colorsdef.h	2;"	d
+COLORS_H	my_libraries/colors/colors.h	2;"	d
+COLOR_ALICEBLUE	my_libraries/colors/colorsdef.h	104;"	d
+COLOR_ANTIQUEWHITE	my_libraries/colors/colorsdef.h	112;"	d
+COLOR_AQUA	my_libraries/colors/colorsdef.h	39;"	d
+COLOR_AQUAMARINE	my_libraries/colors/colorsdef.h	43;"	d
+COLOR_AZURE	my_libraries/colors/colorsdef.h	103;"	d
+COLOR_BEIGE	my_libraries/colors/colorsdef.h	108;"	d
+COLOR_BLACK	my_libraries/colors/colorsdef.h	124;"	d
+COLOR_BLUE	my_libraries/colors/colorsdef.h	73;"	d
+COLOR_BLUEVIOLET	my_libraries/colors/colorsdef.h	85;"	d
+COLOR_CADETBLUE	my_libraries/colors/colorsdef.h	48;"	d
+COLOR_CHARTREUSE	my_libraries/colors/colorsdef.h	52;"	d
+COLOR_CORAL	my_libraries/colors/colorsdef.h	21;"	d
+COLOR_CORNFLOWERBLUE	my_libraries/colors/colorsdef.h	76;"	d
+COLOR_CRIMSON	my_libraries/colors/colorsdef.h	9;"	d
+COLOR_CYAN	my_libraries/colors/colorsdef.h	40;"	d
+COLOR_DARKBLUE	my_libraries/colors/colorsdef.h	75;"	d
+COLOR_DARKCYAN	my_libraries/colors/colorsdef.h	49;"	d
+COLOR_DARKGRAY	my_libraries/colors/colorsdef.h	119;"	d
+COLOR_DARKGREEN	my_libraries/colors/colorsdef.h	64;"	d
+COLOR_DARKKHAKI	my_libraries/colors/colorsdef.h	36;"	d
+COLOR_DARKMAGENTA	my_libraries/colors/colorsdef.h	90;"	d
+COLOR_DARKOLIVEGREEN	my_libraries/colors/colorsdef.h	68;"	d
+COLOR_DARKORANGE	my_libraries/colors/colorsdef.h	24;"	d
+COLOR_DARKORCHID	my_libraries/colors/colorsdef.h	89;"	d
+COLOR_DARKRED	my_libraries/colors/colorsdef.h	12;"	d
+COLOR_DARKSALMON	my_libraries/colors/colorsdef.h	8;"	d
+COLOR_DARKSLATEBLUE	my_libraries/colors/colorsdef.h	83;"	d
+COLOR_DARKSLATEGRAY	my_libraries/colors/colorsdef.h	123;"	d
+COLOR_DARKTURQUOISE	my_libraries/colors/colorsdef.h	46;"	d
+COLOR_DEEPPINK	my_libraries/colors/colorsdef.h	16;"	d
+COLOR_DIMGRAY	my_libraries/colors/colorsdef.h	121;"	d
+COLOR_DODGERBLUE	my_libraries/colors/colorsdef.h	77;"	d
+COLOR_FIREBRICK	my_libraries/colors/colorsdef.h	11;"	d
+COLOR_FLORALWHITE	my_libraries/colors/colorsdef.h	110;"	d
+COLOR_FORESTGREEN	my_libraries/colors/colorsdef.h	62;"	d
+COLOR_FUCHSIA	my_libraries/colors/colorsdef.h	92;"	d
+COLOR_GAINSBORO	my_libraries/colors/colorsdef.h	116;"	d
+COLOR_GHOSTWHITE	my_libraries/colors/colorsdef.h	105;"	d
+COLOR_GOLD	my_libraries/colors/colorsdef.h	26;"	d
+COLOR_GRAY	my_libraries/colors/colorsdef.h	120;"	d
+COLOR_GREEN	my_libraries/colors/colorsdef.h	63;"	d
+COLOR_GREENYELLOW	my_libraries/colors/colorsdef.h	51;"	d
+COLOR_HONEYDEW	my_libraries/colors/colorsdef.h	101;"	d
+COLOR_HOTPINK	my_libraries/colors/colorsdef.h	15;"	d
+COLOR_INDIANRED	my_libraries/colors/colorsdef.h	5;"	d
+COLOR_INDIGO	my_libraries/colors/colorsdef.h	86;"	d
+COLOR_IVORY	my_libraries/colors/colorsdef.h	111;"	d
+COLOR_KHAKI	my_libraries/colors/colorsdef.h	35;"	d
+COLOR_LAVENDERBLUSH	my_libraries/colors/colorsdef.h	114;"	d
+COLOR_LAWNGREEN	my_libraries/colors/colorsdef.h	53;"	d
+COLOR_LEMONCHIFFON	my_libraries/colors/colorsdef.h	29;"	d
+COLOR_LIGHTBLUE	my_libraries/colors/colorsdef.h	78;"	d
+COLOR_LIGHTCORAL	my_libraries/colors/colorsdef.h	6;"	d
+COLOR_LIGHTCYAN	my_libraries/colors/colorsdef.h	41;"	d
+COLOR_LIGHTGOLDENRODYELLOW	my_libraries/colors/colorsdef.h	30;"	d
+COLOR_LIGHTGRAY	my_libraries/colors/colorsdef.h	117;"	d
+COLOR_LIGHTGREEN	my_libraries/colors/colorsdef.h	57;"	d
+COLOR_LIGHTPINK	my_libraries/colors/colorsdef.h	14;"	d
+COLOR_LIGHTSEAGREEN	my_libraries/colors/colorsdef.h	47;"	d
+COLOR_LIGHTSKYBLUE	my_libraries/colors/colorsdef.h	80;"	d
+COLOR_LIGHTYELLOW	my_libraries/colors/colorsdef.h	28;"	d
+COLOR_LIME	my_libraries/colors/colorsdef.h	54;"	d
+COLOR_LIMEGREEN	my_libraries/colors/colorsdef.h	55;"	d
+COLOR_LINEN	my_libraries/colors/colorsdef.h	113;"	d
+COLOR_MAGENTA	my_libraries/colors/colorsdef.h	91;"	d
+COLOR_MEDIUMBLUE	my_libraries/colors/colorsdef.h	74;"	d
+COLOR_MEDIUMORCHID	my_libraries/colors/colorsdef.h	88;"	d
+COLOR_MEDIUMSEAGREEN	my_libraries/colors/colorsdef.h	60;"	d
+COLOR_MEDIUMSLATEBLUE	my_libraries/colors/colorsdef.h	84;"	d
+COLOR_MEDIUMSPRINGGREEN	my_libraries/colors/colorsdef.h	58;"	d
+COLOR_MEDIUMTURQUOISE	my_libraries/colors/colorsdef.h	45;"	d
+COLOR_MEDIUMVIOLETRED	my_libraries/colors/colorsdef.h	17;"	d
+COLOR_MEDIUMVIOLETRED	my_libraries/colors/colorsdef.h	96;"	d
+COLOR_MIDNIGHTBLUE	my_libraries/colors/colorsdef.h	81;"	d
+COLOR_MINTCREAM	my_libraries/colors/colorsdef.h	102;"	d
+COLOR_MISTYROSE	my_libraries/colors/colorsdef.h	115;"	d
+COLOR_MOCCASIN	my_libraries/colors/colorsdef.h	32;"	d
+COLOR_NAVY	my_libraries/colors/colorsdef.h	71;"	d
+COLOR_NAVYBLUE	my_libraries/colors/colorsdef.h	72;"	d
+COLOR_OLDLACE	my_libraries/colors/colorsdef.h	109;"	d
+COLOR_OLIVE	my_libraries/colors/colorsdef.h	67;"	d
+COLOR_OLIVEDRAB	my_libraries/colors/colorsdef.h	66;"	d
+COLOR_ORANGE	my_libraries/colors/colorsdef.h	25;"	d
+COLOR_ORANGERED	my_libraries/colors/colorsdef.h	23;"	d
+COLOR_ORCHID	my_libraries/colors/colorsdef.h	95;"	d
+COLOR_PALEGOLDENROD	my_libraries/colors/colorsdef.h	34;"	d
+COLOR_PALEGREEN	my_libraries/colors/colorsdef.h	56;"	d
+COLOR_PALETURQUOISE	my_libraries/colors/colorsdef.h	42;"	d
+COLOR_PALEVIOLETRED	my_libraries/colors/colorsdef.h	18;"	d
+COLOR_PAPAYAWHIP	my_libraries/colors/colorsdef.h	31;"	d
+COLOR_PEACHPUFF	my_libraries/colors/colorsdef.h	33;"	d
+COLOR_PINK	my_libraries/colors/colorsdef.h	13;"	d
+COLOR_PLUM	my_libraries/colors/colorsdef.h	93;"	d
+COLOR_PURPLE	my_libraries/colors/colorsdef.h	87;"	d
+COLOR_RED	my_libraries/colors/colorsdef.h	10;"	d
+COLOR_SALMON	my_libraries/colors/colorsdef.h	7;"	d
+COLOR_SEAGREEN	my_libraries/colors/colorsdef.h	61;"	d
+COLOR_SEASHELL	my_libraries/colors/colorsdef.h	107;"	d
+COLOR_SILVER	my_libraries/colors/colorsdef.h	118;"	d
+COLOR_SKYBLUE	my_libraries/colors/colorsdef.h	79;"	d
+COLOR_SLATEBLUE	my_libraries/colors/colorsdef.h	82;"	d
+COLOR_SLATEGRAY	my_libraries/colors/colorsdef.h	122;"	d
+COLOR_SNOW	my_libraries/colors/colorsdef.h	100;"	d
+COLOR_SPRINGGREEN	my_libraries/colors/colorsdef.h	59;"	d
+COLOR_TEAL	my_libraries/colors/colorsdef.h	50;"	d
+COLOR_TOMATO	my_libraries/colors/colorsdef.h	22;"	d
+COLOR_TURQUOISE	my_libraries/colors/colorsdef.h	44;"	d
+COLOR_VIOLET	my_libraries/colors/colorsdef.h	94;"	d
+COLOR_WHITE	my_libraries/colors/colorsdef.h	99;"	d
+COLOR_WHITESMOKE	my_libraries/colors/colorsdef.h	106;"	d
+COLOR_YELLOW	my_libraries/colors/colorsdef.h	27;"	d
+COLOR_YELLOWGREEN	my_libraries/colors/colorsdef.h	65;"	d
+DATALIB_H	my_libraries/datalib/datalib/datalib.h	2;"	d
+ENV_DISPLAY	minilibx-linux/mlx_int.h	43;"	d
+ERR_NO_TRUECOLOR	minilibx-linux/mlx_int.h	45;"	d
+IM1_SX	minilibx-linux/test/main.c	7;"	d	file:
+IM1_SY	minilibx-linux/test/main.c	8;"	d	file:
+IM3_SX	minilibx-linux/test/main.c	9;"	d	file:
+IM3_SY	minilibx-linux/test/main.c	10;"	d	file:
+IMGLIB_H	my_libraries/datalib/imglib/imglib.h	2;"	d
+IMGLIB_H	my_libraries/imglib/imglib.h	2;"	d
+LOCALHOST	minilibx-linux/mlx_int.h	44;"	d
+MLX_ERROR	my_libraries/datalib/datalib/datalib.h	8;"	d
+MLX_ERROR	my_libraries/imglib/imglib.h	4;"	d
+MLX_H	minilibx-linux/mlx.h	32;"	d
+MLX_INT_H	minilibx-linux/mlx_int.h	19;"	d
+MLX_MAX_EVENT	minilibx-linux/mlx_int.h	40;"	d
+MLX_TYPE_SHM	minilibx-linux/mlx_int.h	37;"	d
+MLX_TYPE_SHM_PIXMAP	minilibx-linux/mlx_int.h	36;"	d
+MLX_TYPE_XIMAGE	minilibx-linux/mlx_int.h	38;"	d
+RETURN	minilibx-linux/mlx_xpm.c	17;"	d	file:
+WARN_SHM_ATTACH	minilibx-linux/mlx_int.h	46;"	d
+WIN1_SX	minilibx-linux/test/main.c	5;"	d	file:
+WIN1_SY	minilibx-linux/test/main.c	6;"	d	file:
+WINDOW_HEIGTH	my_libraries/datalib/datalib/datalib.h	15;"	d
+WINDOW_LENGTH	my_libraries/datalib/datalib/datalib.h	11;"	d
+X11_DISPLAY_ERROR	4-events/close_on_esc/close_on_esc.c	9;"	d	file:
+X_ShmAttach	minilibx-linux/mlx_new_image.c	20;"	d	file:
+addr	3-image_manage_and_put/image_put.c	/^	char	*addr;$/;"	m	struct:s_data	file:
+addr	my_libraries/datalib/imglib/imglib.h	/^	char    *addr;$/;"	m	struct:s_data_img
+addr	my_libraries/imglib/imglib.h	/^	char    *addr;                                                            $/;"	m	struct:s_data_img
+bits_per_pixel	3-image_manage_and_put/image_put.c	/^	int		bits_per_pixel;$/;"	m	struct:s_data	file:
+bpp	minilibx-linux/mlx_int.h	/^	int				bpp;$/;"	m	struct:s_img
+bpp	my_libraries/datalib/imglib/imglib.h	/^	int     bpp; \/\/ bits per pixel$/;"	m	struct:s_data_img
+bpp	my_libraries/imglib/imglib.h	/^	int     bpp; \/\/ bits per pixel$/;"	m	struct:s_data_img
+bpp1	minilibx-linux/test/main.c	/^int	bpp1;$/;"	v
+bpp2	minilibx-linux/test/main.c	/^int	bpp2;$/;"	v
+bpp3	minilibx-linux/test/main.c	/^int	bpp3;$/;"	v
+bpp4	minilibx-linux/test/main.c	/^int	bpp4;$/;"	v
+change_background	4-events/loop/rainbow.c	/^int change_background(t_param *param)$/;"	f	signature:(t_param *param)
+clr_create_trgb	my_libraries/colors/colors.c	/^int	clr_create_trgb(int t, int r, int g, int b)$/;"	f	signature:(int t, int r, int g, int b)
+clr_create_trgb	my_libraries/colors/colors.h	/^int	clr_create_trgb(int t, int r, int g, int b);$/;"	p	signature:(int t, int r, int g, int b)
+clr_get_b	my_libraries/colors/colors.c	/^int	clr_get_b(int trgb)$/;"	f	signature:(int trgb)
+clr_get_b	my_libraries/colors/colors.h	/^int	clr_get_b(int trgb);$/;"	p	signature:(int trgb)
+clr_get_g	my_libraries/colors/colors.c	/^int	clr_get_g(int trgb)$/;"	f	signature:(int trgb)
+clr_get_g	my_libraries/colors/colors.h	/^int	clr_get_g(int trgb);$/;"	p	signature:(int trgb)
+clr_get_r	my_libraries/colors/colors.c	/^int	clr_get_r(int trgb)$/;"	f	signature:(int trgb)
+clr_get_r	my_libraries/colors/colors.h	/^int	clr_get_r(int trgb);$/;"	p	signature:(int trgb)
+clr_get_t	my_libraries/colors/colors.c	/^int	clr_get_t(int trgb)$/;"	f	signature:(int trgb)
+clr_get_t	my_libraries/colors/colors.h	/^int	clr_get_t(int trgb);$/;"	p	signature:(int trgb)
+cmap	minilibx-linux/mlx_int.h	/^	Colormap	cmap;$/;"	m	struct:s_xvar
+col	minilibx-linux/mlx_int.h	/^	int		col;$/;"	m	struct:s_xpm_col
+color	minilibx-linux/mlx_int.h	/^	int		color;$/;"	m	struct:s_col_name
+color_map_1	minilibx-linux/test/main.c	/^int	color_map_1(void *win,int w,int h)$/;"	f	signature:(void *win,int w,int h)
+color_map_1	minilibx-linux/test/main.c	/^int	color_map_1(void *win,int w,int h);$/;"	p	file:	signature:(void *win,int w,int h)
+color_map_2	minilibx-linux/test/main.c	/^int	color_map_2(unsigned char *data,int bpp,int sl,int w,int h,int endian, int type)$/;"	f	signature:(unsigned char *data,int bpp,int sl,int w,int h,int endian, int type)
+color_map_2	minilibx-linux/test/main.c	/^int	color_map_2(unsigned char *data,int bpp,int sl,int w,int h,int endian, int type);$/;"	p	file:	signature:(unsigned char *data,int bpp,int sl,int w,int h,int endian, int type)
+data	4-events/loop/rainbow.c	/^	t_data		*data;$/;"	m	struct:s_param	file:
+data	minilibx-linux/mlx_int.h	/^	char			*data;$/;"	m	struct:s_img
+data1	minilibx-linux/test/main.c	/^char	*data1;$/;"	v
+data2	minilibx-linux/test/main.c	/^char	*data2;$/;"	v
+data3	minilibx-linux/test/main.c	/^char	*data3;$/;"	v
+data4	minilibx-linux/test/main.c	/^char	*data4;$/;"	v
+data_init	my_libraries/datalib/datalib/datalib.c	/^t_data data_init(void *mlx_ptr, int w_l, int w_h, char *w_name)$/;"	f	signature:(void *mlx_ptr, int w_l, int w_h, char *w_name)
+data_init	my_libraries/datalib/datalib/datalib.h	/^t_data data_init(void *mlx_ptr, int w_l, int w_h, char *w_name);$/;"	p	signature:(void *mlx_ptr, int w_l, int w_h, char *w_name)
+decrgb	minilibx-linux/mlx_int.h	/^	int			decrgb[6];$/;"	m	struct:s_xvar
+depth	minilibx-linux/mlx_int.h	/^	int			depth;$/;"	m	struct:s_xvar
+display	4-events/close_on_esc/close_on_esc.c	/^	Display	*display;$/;"	m	struct:s_param	file:
+display	minilibx-linux/mlx_int.h	/^	Display		*display;$/;"	m	struct:s_xvar
+do_flush	minilibx-linux/mlx_int.h	/^	int			do_flush;$/;"	m	struct:s_xvar
+end_loop	minilibx-linux/mlx_int.h	/^	int 		end_loop;$/;"	m	struct:s_xvar
+endian	3-image_manage_and_put/image_put.c	/^	int		endian;	$/;"	m	struct:s_data	file:
+endian	my_libraries/datalib/imglib/imglib.h	/^	int     endian;$/;"	m	struct:s_data_img
+endian	my_libraries/imglib/imglib.h	/^	int     endian;$/;"	m	struct:s_data_img
+endian1	minilibx-linux/test/main.c	/^int	endian1;$/;"	v
+endian2	minilibx-linux/test/main.c	/^int	endian2;$/;"	v
+endian3	minilibx-linux/test/main.c	/^int	endian3;$/;"	v
+endian4	minilibx-linux/test/main.c	/^int	endian4;$/;"	v
+expose_hook	minilibx-linux/mlx_int.h	/^	int					(*expose_hook)();$/;"	m	struct:s_win_list
+expose_param	minilibx-linux/mlx_int.h	/^	void				*expose_param;$/;"	m	struct:s_win_list
+expose_win1	minilibx-linux/test/main.c	/^int	expose_win1(void *p)$/;"	f	signature:(void *p)
+expose_win2	minilibx-linux/test/main.c	/^int	expose_win2(void *p)$/;"	f	signature:(void *p)
+format	minilibx-linux/mlx_int.h	/^	int				format;$/;"	m	struct:s_img
+gc	minilibx-linux/mlx_int.h	/^	GC					gc;$/;"	m	struct:s_win_list
+gc	minilibx-linux/mlx_int.h	/^	GC				gc;$/;"	m	struct:s_img
+gere_mouse	minilibx-linux/test/new_win.c	/^int gere_mouse(int x,int y,int button,void*toto)$/;"	f	signature:(int x,int y,int button,void*toto)
+handle_destroynotify	4-events/close_on_x/close_on_x.c	/^int	handle_destroynotify(t_data *data)$/;"	f	signature:(t_data *data)
+handle_destroynotify	4-events/loop/rainbow.c	/^int	handle_destroynotify(t_data *data)$/;"	f	signature:(t_data *data)
+handle_keypress	4-events/close_on_esc/close_on_esc.c	/^int	handle_keypress(int keycode, t_param *data)$/;"	f	signature:(int keycode, t_param *data)
+handle_no_event	4-events/close_on_esc/close_on_esc.c	/^int	handle_no_event(void *data)$/;"	f	signature:(void *data)
+handle_no_event	4-events/close_on_x/close_on_x.c	/^int handle_no_event(void *data)$/;"	f	signature:(void *data)
+height	minilibx-linux/mlx_int.h	/^	int				height;$/;"	m	struct:s_img
+heigth	my_libraries/datalib/imglib/imglib.h	/^	int		heigth;$/;"	m	struct:s_data_img
+hook	minilibx-linux/mlx_int.h	/^	int		(*hook)();$/;"	m	struct:s_event_list
+hooks	minilibx-linux/mlx_int.h	/^	t_event_list		hooks[MLX_MAX_EVENT];$/;"	m	struct:s_win_list
+im1	minilibx-linux/test/main.c	/^void    *im1;$/;"	v
+im2	minilibx-linux/test/main.c	/^void	*im2;$/;"	v
+im3	minilibx-linux/test/main.c	/^void	*im3;$/;"	v
+im4	minilibx-linux/test/main.c	/^void	*im4;$/;"	v
+image	minilibx-linux/mlx_int.h	/^	XImage			*image;$/;"	m	struct:s_img
+img	3-image_manage_and_put/image_put.c	/^	void	*img;$/;"	m	struct:s_data	file:
+img	4-events/loop/rainbow.c	/^	t_data_img	*img;$/;"	m	struct:s_param	file:
+img	my_libraries/datalib/imglib/imglib.h	/^	void    *img;$/;"	m	struct:s_data_img
+img	my_libraries/imglib/imglib.h	/^	void    *img;$/;"	m	struct:s_data_img
+img_create	my_libraries/datalib/imglib/imglib.c	/^void img_create(void* mlx, t_data_img *img, int img_length, int img_heigth)$/;"	f	signature:(void* mlx, t_data_img *img, int img_length, int img_heigth)
+img_create	my_libraries/datalib/imglib/imglib.h	/^void	img_create(void *mlx, t_data_img *img, int img_length, int img_heigth);$/;"	p	signature:(void *mlx, t_data_img *img, int img_length, int img_heigth)
+img_create	my_libraries/imglib/imglib.c	/^void img_create(void* mlx, t_data_img *img, int img_length, int img_heigth)$/;"	f	signature:(void* mlx, t_data_img *img, int img_length, int img_heigth)
+img_create	my_libraries/imglib/imglib.h	/^void	img_create(void *mlx, t_data_img *img, int img_length, int img_heigth);$/;"	p	signature:(void *mlx, t_data_img *img, int img_length, int img_heigth)
+img_get_offset	my_libraries/datalib/imglib/imglib.c	/^int img_get_offset(t_data_img *img, int x, int y)$/;"	f	signature:(t_data_img *img, int x, int y)
+img_get_offset	my_libraries/datalib/imglib/imglib.h	/^int		img_get_offset(t_data_img *img, int x, int y);$/;"	p	signature:(t_data_img *img, int x, int y)
+img_get_offset	my_libraries/imglib/imglib.c	/^int img_get_offset(t_data_img *img, int x, int y)$/;"	f	signature:(t_data_img *img, int x, int y)
+img_get_offset	my_libraries/imglib/imglib.h	/^int		img_get_offset(t_data_img *img, int x, int y);$/;"	p	signature:(t_data_img *img, int x, int y)
+img_put_circle	3.5-shapes_in_images/putshape.c	/^void img_put_circle(t_data *img, int radius, int x_center, int y_center, int color)$/;"	f	signature:(t_data *img, int radius, int x_center, int y_center, int color)
+img_put_circle_not_working	3.5-shapes_in_images/putshape.c	/^void img_put_circle_not_working(t_data *img, int radius, int x, int y, int color)$/;"	f	signature:(t_data *img, int radius, int x, int y, int color)
+img_put_pixel	my_libraries/datalib/imglib/imglib.c	/^void img_put_pixel(t_data_img *img, int x, int y, int color)$/;"	f	signature:(t_data_img *img, int x, int y, int color)
+img_put_pixel	my_libraries/datalib/imglib/imglib.h	/^void	img_put_pixel(t_data_img *img, int x, int y, int color);$/;"	p	signature:(t_data_img *img, int x, int y, int color)
+img_put_pixel	my_libraries/imglib/imglib.c	/^void img_put_pixel(t_data_img *img, int x, int y, int color)$/;"	f	signature:(t_data_img *img, int x, int y, int color)
+img_put_pixel	my_libraries/imglib/imglib.h	/^void	img_put_pixel(t_data_img *img, int x, int y, int color);$/;"	p	signature:(t_data_img *img, int x, int y, int color)
+img_put_square	3.5-shapes_in_images/putshape.c	/^void img_put_square(t_data *img, int size, int x, int y, int color)$/;"	f	signature:(t_data *img, int size, int x, int y, int color)
+img_set_background	my_libraries/datalib/imglib/imglib.c	/^void img_set_background(t_data_img *img, int color)$/;"	f	signature:(t_data_img *img, int color)
+img_set_background	my_libraries/datalib/imglib/imglib.h	/^void	img_set_background(t_data_img *img, int color);$/;"	p	signature:(t_data_img *img, int color)
+img_set_background	my_libraries/imglib/imglib.h	/^void img_set_background(t_data_img *img, int color);$/;"	p	signature:(t_data_img *img, int color)
+key_hook	minilibx-linux/mlx_int.h	/^	int					(*key_hook)();$/;"	m	struct:s_win_list
+key_param	minilibx-linux/mlx_int.h	/^	void				*key_param;$/;"	m	struct:s_win_list
+key_win1	minilibx-linux/test/main.c	/^int	key_win1(int key,void *p)$/;"	f	signature:(int key,void *p)
+key_win2	minilibx-linux/test/main.c	/^int	key_win2(int key,void *p)$/;"	f	signature:(int key,void *p)
+key_win3	minilibx-linux/test/main.c	/^int	key_win3(int key,void *p)$/;"	f	signature:(int key,void *p)
+length	my_libraries/datalib/imglib/imglib.h	/^	int		length;$/;"	m	struct:s_data_img
+length	my_libraries/imglib/imglib.h	/^	int		length;$/;"	m	struct:s_data_img
+line_len	my_libraries/datalib/imglib/imglib.h	/^	int     line_len;$/;"	m	struct:s_data_img
+line_len	my_libraries/imglib/imglib.h	/^	int     line_len;$/;"	m	struct:s_data_img
+line_lenght	3-image_manage_and_put/image_put.c	/^	int		line_lenght;$/;"	m	struct:s_data	file:
+local_endian	minilibx-linux/test/main.c	/^int	local_endian;$/;"	v
+loop_hook	minilibx-linux/mlx_int.h	/^	int			(*loop_hook)();$/;"	m	struct:s_xvar
+loop_param	minilibx-linux/mlx_int.h	/^	void		*loop_param;$/;"	m	struct:s_xvar
+main	1-new_window/new_window.c	/^int main ()$/;"	f
+main	2-pixel_put/pixel_put.c	/^int main(void)$/;"	f	signature:(void)
+main	3-image_manage_and_put/image_put.c	/^int main(void)$/;"	f	signature:(void)
+main	3.5-shapes_in_images/putshape.c	/^int	main(void)$/;"	f	signature:(void)
+main	4-events/close_on_esc/close_on_esc.c	/^int main(void)$/;"	f	signature:(void)
+main	4-events/close_on_x/close_on_x.c	/^int main(void)$/;"	f	signature:(void)
+main	4-events/loop/controlled_square.c	/^int main(void)$/;"	f	signature:(void)
+main	4-events/loop/rainbow.c	/^int main(void)$/;"	f	signature:(void)
+main	minilibx-linux/test/main.c	/^int	main()$/;"	f
+main	minilibx-linux/test/new_win.c	/^int main()$/;"	f
+mask	minilibx-linux/mlx_int.h	/^	int		mask;$/;"	m	struct:s_event_list
+mlx	4-events/close_on_esc/close_on_esc.c	/^	void	*mlx;$/;"	m	struct:s_param	file:
+mlx	4-events/close_on_x/close_on_x.c	/^	void	*mlx;$/;"	m	struct:s_data	file:
+mlx	minilibx-linux/test/main.c	/^void	*mlx;$/;"	v
+mlx	minilibx-linux/test/new_win.c	/^void *mlx;$/;"	v
+mlx	my_libraries/datalib/datalib/datalib.h	/^	void	*mlx;$/;"	m	struct:s_data
+mlx_X_error	minilibx-linux/mlx_new_image.c	/^int	mlx_X_error;$/;"	v
+mlx_clear_window	minilibx-linux/mlx.h	/^int	mlx_clear_window(void *mlx_ptr, void *win_ptr);$/;"	p	signature:(void *mlx_ptr, void *win_ptr)
+mlx_clear_window	minilibx-linux/mlx_clear_window.c	/^int		mlx_clear_window(t_xvar *xvar,t_win_list *win)$/;"	f	signature:(t_xvar *xvar,t_win_list *win)
+mlx_col_name	minilibx-linux/mlx_rgb.c	/^struct s_col_name mlx_col_name[] =$/;"	v	typeref:struct:s_col_name
+mlx_destroy_display	minilibx-linux/mlx.h	/^int	mlx_destroy_display(void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_destroy_display	minilibx-linux/mlx_destroy_display.c	/^int	mlx_destroy_display(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_destroy_image	minilibx-linux/mlx.h	/^int	mlx_destroy_image(void *mlx_ptr, void *img_ptr);$/;"	p	signature:(void *mlx_ptr, void *img_ptr)
+mlx_destroy_image	minilibx-linux/mlx_destroy_image.c	/^int	mlx_destroy_image(t_xvar *xvar, t_img *img)$/;"	f	signature:(t_xvar *xvar, t_img *img)
+mlx_destroy_window	minilibx-linux/mlx.h	/^int	mlx_destroy_window(void *mlx_ptr, void *win_ptr);$/;"	p	signature:(void *mlx_ptr, void *win_ptr)
+mlx_destroy_window	minilibx-linux/mlx_destroy_window.c	/^int	mlx_destroy_window(t_xvar *xvar,t_win_list *win)$/;"	f	signature:(t_xvar *xvar,t_win_list *win)
+mlx_do_key_autorepeatoff	minilibx-linux/mlx.h	/^int	mlx_do_key_autorepeatoff(void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_do_key_autorepeatoff	minilibx-linux/mlx_hook.c	/^int	mlx_do_key_autorepeatoff(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_do_key_autorepeaton	minilibx-linux/mlx.h	/^int	mlx_do_key_autorepeaton(void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_do_key_autorepeaton	minilibx-linux/mlx_hook.c	/^int	mlx_do_key_autorepeaton(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_do_sync	minilibx-linux/mlx.h	/^int	mlx_do_sync(void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_do_sync	minilibx-linux/mlx_hook.c	/^int	mlx_do_sync(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_expose_hook	minilibx-linux/mlx.h	/^int	mlx_expose_hook (void *win_ptr, int (*funct_ptr)(), void *param);$/;"	p	signature:(void *win_ptr, int (*funct_ptr)(), void *param)
+mlx_expose_hook	minilibx-linux/mlx_expose_hook.c	/^int		mlx_expose_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f	signature:(t_win_list *win,int (*funct)(),void *param)
+mlx_ext_fullscreen	minilibx-linux/mlx_ext_randr.c	/^int			mlx_ext_fullscreen(t_xvar *xvar, t_win_list *win, int fullscreen)$/;"	f	signature:(t_xvar *xvar, t_win_list *win, int fullscreen)
+mlx_flush_event	minilibx-linux/mlx_flush_event.c	/^int	mlx_flush_event(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_get_color_value	minilibx-linux/mlx.h	/^int	mlx_get_color_value(void *mlx_ptr, int color);$/;"	p	signature:(void *mlx_ptr, int color)
+mlx_get_color_value	minilibx-linux/mlx_get_color_value.c	/^int             mlx_get_color_value(t_xvar *xvar,int color)$/;"	f	signature:(t_xvar *xvar,int color)
+mlx_get_color_value	minilibx-linux/mlx_int.h	/^int				mlx_get_color_value();$/;"	p	signature:()
+mlx_get_data_addr	minilibx-linux/mlx.h	/^char	*mlx_get_data_addr(void *img_ptr, int *bits_per_pixel,$/;"	p	signature:(void *img_ptr, int *bits_per_pixel, int *size_line, int *endian)
+mlx_get_data_addr	minilibx-linux/mlx_get_data_addr.c	/^char	*mlx_get_data_addr(t_img *img,int *bits_per_pixel,$/;"	f	signature:(t_img *img,int *bits_per_pixel, int *size_line,int *endian)
+mlx_get_offest	3-image_manage_and_put/image_put.c	/^int mlx_get_offest(int x, int y, int bits_per_pixel, int line_lenght)$/;"	f	signature:(int x, int y, int bits_per_pixel, int line_lenght)
+mlx_get_screen_size	minilibx-linux/mlx.h	/^int	mlx_get_screen_size(void *mlx_ptr, int *sizex, int *sizey);$/;"	p	signature:(void *mlx_ptr, int *sizex, int *sizey)
+mlx_get_screen_size	minilibx-linux/mlx_screen_size.c	/^int		mlx_get_screen_size(void *mlx_ptr, int *sizex, int *sizey)$/;"	f	signature:(void *mlx_ptr, int *sizex, int *sizey)
+mlx_hook	minilibx-linux/mlx.h	/^int	mlx_hook(void *win_ptr, int x_event, int x_mask,$/;"	p	signature:(void *win_ptr, int x_event, int x_mask, int (*funct)(), void *param)
+mlx_hook	minilibx-linux/mlx_hook.c	/^int	mlx_hook(t_win_list *win, int x_event, int x_mask, $/;"	f	signature:(t_win_list *win, int x_event, int x_mask, int (*funct)(),void *param)
+mlx_init	minilibx-linux/mlx.h	/^void	*mlx_init();$/;"	p	signature:()
+mlx_init	minilibx-linux/mlx_init.c	/^void	*mlx_init()$/;"	f
+mlx_int_anti_resize_win	minilibx-linux/mlx_int.h	/^int				mlx_int_anti_resize_win();$/;"	p	signature:()
+mlx_int_anti_resize_win	minilibx-linux/mlx_int_anti_resize_win.c	/^int	mlx_int_anti_resize_win(t_xvar *xvar,Window win,int w,int h)$/;"	f	signature:(t_xvar *xvar,Window win,int w,int h)
+mlx_int_deal_shm	minilibx-linux/mlx_init.c	/^int		mlx_int_deal_shm(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_int_deal_shm	minilibx-linux/mlx_int.h	/^int				mlx_int_deal_shm();$/;"	p	signature:()
+mlx_int_do_nothing	minilibx-linux/mlx_int.h	/^int				mlx_int_do_nothing();$/;"	p	signature:()
+mlx_int_do_nothing	minilibx-linux/mlx_int_do_nothing.c	/^int	mlx_int_do_nothing(void *param)$/;"	f	signature:(void *param)
+mlx_int_egal_img	minilibx-linux/mlx_lib_xpm.c	/^int	mlx_int_egal_img(XImage *img1,XImage *img2)$/;"	f	signature:(XImage *img1,XImage *img2)
+mlx_int_file_get_rid_comment	minilibx-linux/mlx_xpm.c	/^int	mlx_int_file_get_rid_comment(char *ptr, int size)$/;"	f	signature:(char *ptr, int size)
+mlx_int_find_in_pcm	minilibx-linux/mlx_int.h	/^int				mlx_int_find_in_pcm();$/;"	p	signature:()
+mlx_int_get_col_name	minilibx-linux/mlx_xpm.c	/^int	mlx_int_get_col_name(char *str,int size)$/;"	f	signature:(char *str,int size)
+mlx_int_get_good_color	minilibx-linux/mlx_get_color_value.c	/^int		mlx_int_get_good_color(t_xvar *xvar,int color)$/;"	f	signature:(t_xvar *xvar,int color)
+mlx_int_get_good_color	minilibx-linux/mlx_int.h	/^int				mlx_int_get_good_color();$/;"	p	signature:()
+mlx_int_get_line	minilibx-linux/mlx_xpm.c	/^char	*mlx_int_get_line(char *ptr,int *pos,int size)$/;"	f	signature:(char *ptr,int *pos,int size)
+mlx_int_get_text_rgb	minilibx-linux/mlx_xpm.c	/^int	mlx_int_get_text_rgb(char *name, char *end)$/;"	f	signature:(char *name, char *end)
+mlx_int_get_visual	minilibx-linux/mlx_int.h	/^int				mlx_int_get_visual(t_xvar *xvar);$/;"	p	signature:(t_xvar *xvar)
+mlx_int_get_visual	minilibx-linux/mlx_int_get_visual.c	/^int		mlx_int_get_visual(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_int_new_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_int_new_image(t_xvar *xvar,int width, int height,int format)$/;"	f	signature:(t_xvar *xvar,int width, int height,int format)
+mlx_int_new_xshm_image	minilibx-linux/mlx_int.h	/^void			*mlx_int_new_xshm_image();$/;"	p	signature:()
+mlx_int_new_xshm_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_int_new_xshm_image(t_xvar *xvar,int width,int height,int format)$/;"	f	signature:(t_xvar *xvar,int width,int height,int format)
+mlx_int_param_ButtonPress	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_ButtonPress(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_ButtonRelease	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_ButtonRelease(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_Expose	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_Expose(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_KeyPress	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_KeyPress(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_KeyRelease	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_KeyRelease(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_MotionNotify	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_MotionNotify(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_event	minilibx-linux/mlx_int_param_event.c	/^int	(*(mlx_int_param_event[]))() =$/;"	v
+mlx_int_param_generic	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_generic(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, XEvent *ev, t_win_list *win)
+mlx_int_param_undef	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_undef()$/;"	f
+mlx_int_parse_xpm	minilibx-linux/mlx_xpm.c	/^void	*mlx_int_parse_xpm(t_xvar *xvar,void *info,int info_size,char *(*f)())$/;"	f	signature:(t_xvar *xvar,void *info,int info_size,char *(*f)())
+mlx_int_rgb_conversion	minilibx-linux/mlx_init.c	/^int		mlx_int_rgb_conversion(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_int_rgb_conversion	minilibx-linux/mlx_int.h	/^int				mlx_int_rgb_conversion();$/;"	p	signature:()
+mlx_int_set_win_event_mask	minilibx-linux/mlx_int.h	/^int				mlx_int_set_win_event_mask(t_xvar *xvar);$/;"	p	signature:(t_xvar *xvar)
+mlx_int_set_win_event_mask	minilibx-linux/mlx_int_set_win_event_mask.c	/^int	mlx_int_set_win_event_mask(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_int_static_line	minilibx-linux/mlx_xpm.c	/^char	*mlx_int_static_line(char **xpm_data,int *pos,int size)$/;"	f	signature:(char **xpm_data,int *pos,int size)
+mlx_int_str_str	minilibx-linux/mlx_int.h	/^int				mlx_int_str_str(char *str,char *find,int len);$/;"	p	signature:(char *str,char *find,int len)
+mlx_int_str_str	minilibx-linux/mlx_int_str_to_wordtab.c	/^int	mlx_int_str_str(char *str,char *find,int len)$/;"	f	signature:(char *str,char *find,int len)
+mlx_int_str_str_cote	minilibx-linux/mlx_int.h	/^int				mlx_int_str_str_cote(char *str,char *find,int len);$/;"	p	signature:(char *str,char *find,int len)
+mlx_int_str_str_cote	minilibx-linux/mlx_int_str_to_wordtab.c	/^int	mlx_int_str_str_cote(char *str,char *find,int len)$/;"	f	signature:(char *str,char *find,int len)
+mlx_int_str_to_wordtab	minilibx-linux/mlx_int.h	/^char			**mlx_int_str_to_wordtab();$/;"	p	signature:()
+mlx_int_str_to_wordtab	minilibx-linux/mlx_int_str_to_wordtab.c	/^char	**mlx_int_str_to_wordtab(char *str)$/;"	f	signature:(char *str)
+mlx_int_wait_first_expose	minilibx-linux/mlx_int.h	/^int				mlx_int_wait_first_expose();$/;"	p	signature:()
+mlx_int_wait_first_expose	minilibx-linux/mlx_int_wait_first_expose.c	/^int	mlx_int_wait_first_expose(t_xvar *xvar,Window win)$/;"	f	signature:(t_xvar *xvar,Window win)
+mlx_int_xpm_f_image	minilibx-linux/mlx_lib_xpm.c	/^void		*mlx_int_xpm_f_image(t_xvar *xvar,int *width,int *height,$/;"	f	signature:(t_xvar *xvar,int *width,int *height, int (*xpm_func)(),void *param)
+mlx_int_xpm_set_pixel	minilibx-linux/mlx_xpm.c	/^int	mlx_int_xpm_set_pixel(t_img *img, char *data, int opp, int col, int x)$/;"	f	signature:(t_img *img, char *data, int opp, int col, int x)
+mlx_key_hook	minilibx-linux/mlx.h	/^int	mlx_key_hook (void *win_ptr, int (*funct_ptr)(), void *param);$/;"	p	signature:(void *win_ptr, int (*funct_ptr)(), void *param)
+mlx_key_hook	minilibx-linux/mlx_key_hook.c	/^int		mlx_key_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f	signature:(t_win_list *win,int (*funct)(),void *param)
+mlx_loop	minilibx-linux/mlx.h	/^int	mlx_loop (void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_loop	minilibx-linux/mlx_loop.c	/^int			mlx_loop(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_loop_end	minilibx-linux/mlx.h	/^int mlx_loop_end (void *mlx_ptr);$/;"	p	signature:(void *mlx_ptr)
+mlx_loop_end	minilibx-linux/mlx_loop.c	/^int			mlx_loop_end(t_xvar *xvar)$/;"	f	signature:(t_xvar *xvar)
+mlx_loop_hook	minilibx-linux/mlx.h	/^int	mlx_loop_hook (void *mlx_ptr, int (*funct_ptr)(), void *param);$/;"	p	signature:(void *mlx_ptr, int (*funct_ptr)(), void *param)
+mlx_loop_hook	minilibx-linux/mlx_loop_hook.c	/^int	mlx_loop_hook(t_xvar *xvar,int (*funct)(),void *param)$/;"	f	signature:(t_xvar *xvar,int (*funct)(),void *param)
+mlx_mouse_get_pos	minilibx-linux/mlx.h	/^int	mlx_mouse_get_pos(void *mlx_ptr, void *win_ptr, int *x, int *y);$/;"	p	signature:(void *mlx_ptr, void *win_ptr, int *x, int *y)
+mlx_mouse_get_pos	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_get_pos(t_xvar *xvar, t_win_list *win, \\$/;"	f	signature:(t_xvar *xvar, t_win_list *win, \ int *win_x_return, int *win_y_return)
+mlx_mouse_hide	minilibx-linux/mlx.h	/^int	mlx_mouse_hide(void *mlx_ptr, void *win_ptr);$/;"	p	signature:(void *mlx_ptr, void *win_ptr)
+mlx_mouse_hide	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_hide(t_xvar *xvar, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, t_win_list *win)
+mlx_mouse_hook	minilibx-linux/mlx.h	/^int	mlx_mouse_hook (void *win_ptr, int (*funct_ptr)(), void *param);$/;"	p	signature:(void *win_ptr, int (*funct_ptr)(), void *param)
+mlx_mouse_hook	minilibx-linux/mlx_mouse_hook.c	/^int		mlx_mouse_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f	signature:(t_win_list *win,int (*funct)(),void *param)
+mlx_mouse_move	minilibx-linux/mlx.h	/^int	mlx_mouse_move(void *mlx_ptr, void *win_ptr, int x, int y);$/;"	p	signature:(void *mlx_ptr, void *win_ptr, int x, int y)
+mlx_mouse_move	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_move(t_xvar *xvar, t_win_list *win, int x, int y)$/;"	f	signature:(t_xvar *xvar, t_win_list *win, int x, int y)
+mlx_mouse_show	minilibx-linux/mlx.h	/^int	mlx_mouse_show(void *mlx_ptr, void *win_ptr);$/;"	p	signature:(void *mlx_ptr, void *win_ptr)
+mlx_mouse_show	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_show(t_xvar *xvar, t_win_list *win)$/;"	f	signature:(t_xvar *xvar, t_win_list *win)
+mlx_new_image	minilibx-linux/mlx.h	/^void	*mlx_new_image(void *mlx_ptr,int width,int height);$/;"	p	signature:(void *mlx_ptr,int width,int height)
+mlx_new_image	minilibx-linux/mlx_int.h	/^void			*mlx_new_image();$/;"	p	signature:()
+mlx_new_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_new_image(t_xvar *xvar,int width, int height)$/;"	f	signature:(t_xvar *xvar,int width, int height)
+mlx_new_image2	minilibx-linux/mlx_new_image.c	/^void	*mlx_new_image2(t_xvar *xvar,int width, int height)$/;"	f	signature:(t_xvar *xvar,int width, int height)
+mlx_new_window	minilibx-linux/mlx.h	/^void	*mlx_new_window(void *mlx_ptr, int size_x, int size_y, char *title);$/;"	p	signature:(void *mlx_ptr, int size_x, int size_y, char *title)
+mlx_new_window	minilibx-linux/mlx_new_window.c	/^void	*mlx_new_window(t_xvar *xvar,int size_x,int size_y,char *title)$/;"	f	signature:(t_xvar *xvar,int size_x,int size_y,char *title)
+mlx_pixel_put	minilibx-linux/mlx.h	/^int	mlx_pixel_put(void *mlx_ptr, void *win_ptr, int x, int y, int color);$/;"	p	signature:(void *mlx_ptr, void *win_ptr, int x, int y, int color)
+mlx_pixel_put	minilibx-linux/mlx_pixel_put.c	/^int		mlx_pixel_put(t_xvar *xvar,t_win_list *win,$/;"	f	signature:(t_xvar *xvar,t_win_list *win, int x,int y,int color)
+mlx_pixel_put_img	3-image_manage_and_put/image_put.c	/^void mlx_pixel_put_img(t_data *img, int x, int y, int color)$/;"	f	signature:(t_data *img, int x, int y, int color)
+mlx_put_image_to_window	minilibx-linux/mlx.h	/^int	mlx_put_image_to_window(void *mlx_ptr, void *win_ptr, void *img_ptr,$/;"	p	signature:(void *mlx_ptr, void *win_ptr, void *img_ptr, int x, int y)
+mlx_put_image_to_window	minilibx-linux/mlx_put_image_to_window.c	/^int	mlx_put_image_to_window(t_xvar *xvar,t_win_list *win,t_img *img,$/;"	f	signature:(t_xvar *xvar,t_win_list *win,t_img *img, int x,int y)
+mlx_set_font	minilibx-linux/mlx.h	/^void	mlx_set_font(void *mlx_ptr, void *win_ptr, char *name);$/;"	p	signature:(void *mlx_ptr, void *win_ptr, char *name)
+mlx_set_font	minilibx-linux/mlx_set_font.c	/^void	mlx_set_font(t_xvar *xvar, t_win_list *win, char *name)$/;"	f	signature:(t_xvar *xvar, t_win_list *win, char *name)
+mlx_string_put	minilibx-linux/mlx.h	/^int	mlx_string_put(void *mlx_ptr, void *win_ptr, int x, int y, int color,$/;"	p	signature:(void *mlx_ptr, void *win_ptr, int x, int y, int color, char *string)
+mlx_string_put	minilibx-linux/mlx_string_put.c	/^int		mlx_string_put(t_xvar *xvar,t_win_list *win,$/;"	f	signature:(t_xvar *xvar,t_win_list *win, int x,int y,int color,char *string)
+mlx_xpm_file_to_image	minilibx-linux/mlx.h	/^void	*mlx_xpm_file_to_image(void *mlx_ptr, char *filename,$/;"	p	signature:(void *mlx_ptr, char *filename, int *width, int *height)
+mlx_xpm_file_to_image	minilibx-linux/mlx_lib_xpm.c	/^void	*mlx_xpm_file_to_image(t_xvar *xvar,char *filename,$/;"	f	signature:(t_xvar *xvar,char *filename, int *width,int *height)
+mlx_xpm_file_to_image	minilibx-linux/mlx_xpm.c	/^void	*mlx_xpm_file_to_image(t_xvar *xvar,char *file,int *width,int *height)$/;"	f	signature:(t_xvar *xvar,char *file,int *width,int *height)
+mlx_xpm_to_image	minilibx-linux/mlx.h	/^void	*mlx_xpm_to_image(void *mlx_ptr, char **xpm_data,$/;"	p	signature:(void *mlx_ptr, char **xpm_data, int *width, int *height)
+mlx_xpm_to_image	minilibx-linux/mlx_lib_xpm.c	/^void	*mlx_xpm_to_image(t_xvar *xvar,char **data,int *width,int *height)$/;"	f	signature:(t_xvar *xvar,char **data,int *width,int *height)
+mlx_xpm_to_image	minilibx-linux/mlx_xpm.c	/^void	*mlx_xpm_to_image(t_xvar *xvar,char **xpm_data,int *width,int *height)$/;"	f	signature:(t_xvar *xvar,char **xpm_data,int *width,int *height)
+mouse_hook	minilibx-linux/mlx_int.h	/^	int					(*mouse_hook)();$/;"	m	struct:s_win_list
+mouse_param	minilibx-linux/mlx_int.h	/^	void				*mouse_param;$/;"	m	struct:s_win_list
+mouse_win1	minilibx-linux/test/main.c	/^int	mouse_win1(int button,int x,int y, void *p)$/;"	f	signature:(int button,int x,int y, void *p)
+mouse_win2	minilibx-linux/test/main.c	/^int	mouse_win2(int button,int x,int y, void *p)$/;"	f	signature:(int button,int x,int y, void *p)
+mouse_win3	minilibx-linux/test/main.c	/^int	mouse_win3(int x,int y, void *p)$/;"	f	signature:(int x,int y, void *p)
+name	minilibx-linux/mlx_int.h	/^	char	*name;$/;"	m	struct:s_col_name
+name	minilibx-linux/mlx_int.h	/^	int		name;$/;"	m	struct:s_xpm_col
+next	minilibx-linux/mlx_int.h	/^	struct s_win_list	*next;$/;"	m	struct:s_win_list	typeref:struct:s_win_list::s_win_list
+param	minilibx-linux/mlx_int.h	/^	void	*param;$/;"	m	struct:s_event_list
+pix	minilibx-linux/mlx_int.h	/^	Pixmap			pix;$/;"	m	struct:s_img
+private_cmap	minilibx-linux/mlx_int.h	/^	int			private_cmap;$/;"	m	struct:s_xvar
+pshm_format	minilibx-linux/mlx_int.h	/^	int			pshm_format;$/;"	m	struct:s_xvar
+root	minilibx-linux/mlx_int.h	/^	Window		root;$/;"	m	struct:s_xvar
+s_col_name	minilibx-linux/mlx_int.h	/^struct	s_col_name$/;"	s
+s_data	3-image_manage_and_put/image_put.c	/^typedef struct s_data$/;"	s	file:
+s_data	4-events/close_on_x/close_on_x.c	/^typedef struct s_data{$/;"	s	file:
+s_data	my_libraries/datalib/datalib/datalib.h	/^typedef struct s_data {$/;"	s
+s_data_img	my_libraries/datalib/imglib/imglib.h	/^typedef struct s_data_img$/;"	s
+s_data_img	my_libraries/imglib/imglib.h	/^typedef struct s_data_img$/;"	s
+s_event_list	minilibx-linux/mlx_int.h	/^typedef struct	s_event_list$/;"	s
+s_img	minilibx-linux/mlx_int.h	/^typedef struct	s_img$/;"	s
+s_param	4-events/close_on_esc/close_on_esc.c	/^typedef	struct s_param {$/;"	s	file:
+s_param	4-events/loop/rainbow.c	/^typedef struct s_param{$/;"	s	file:
+s_win_list	minilibx-linux/mlx_int.h	/^typedef struct	s_win_list$/;"	s
+s_xpm_col	minilibx-linux/mlx_int.h	/^typedef	struct	s_xpm_col$/;"	s
+s_xvar	minilibx-linux/mlx_int.h	/^typedef struct	s_xvar$/;"	s
+saved_mode	minilibx-linux/mlx_ext_randr.c	/^RRMode	saved_mode = 0;$/;"	v
+screen	minilibx-linux/mlx_int.h	/^	int			screen;$/;"	m	struct:s_xvar
+set_background	4-events/loop/rainbow.c	/^void set_background(t_data_img *img, int color)$/;"	f	signature:(t_data_img *img, int color)
+shm	minilibx-linux/mlx_int.h	/^	XShmSegmentInfo	shm;$/;"	m	struct:s_img
+shm_att_pb	minilibx-linux/mlx_int.h	/^int				shm_att_pb();$/;"	p	signature:()
+shm_att_pb	minilibx-linux/mlx_new_image.c	/^int	shm_att_pb(Display *d,XErrorEvent *ev)$/;"	f	signature:(Display *d,XErrorEvent *ev)
+size_line	minilibx-linux/mlx_int.h	/^	int				size_line;$/;"	m	struct:s_img
+sl1	minilibx-linux/test/main.c	/^int	sl1;$/;"	v
+sl2	minilibx-linux/test/main.c	/^int	sl2;$/;"	v
+sl3	minilibx-linux/test/main.c	/^int	sl3;$/;"	v
+sl4	minilibx-linux/test/main.c	/^int	sl4;$/;"	v
+strlcpy_is_not_posix	minilibx-linux/mlx_xpm.c	/^unsigned int	strlcpy_is_not_posix(char *dest, char *src, unsigned int size)$/;"	f	signature:(char *dest, char *src, unsigned int size)
+t_data	3-image_manage_and_put/image_put.c	/^} t_data;$/;"	t	typeref:struct:s_data	file:
+t_data	4-events/close_on_x/close_on_x.c	/^} t_data;$/;"	t	typeref:struct:s_data	file:
+t_data	my_libraries/datalib/datalib/datalib.h	/^} t_data;$/;"	t	typeref:struct:s_data
+t_data_img	my_libraries/datalib/imglib/imglib.h	/^} t_data_img;$/;"	t	typeref:struct:s_data_img
+t_data_img	my_libraries/imglib/imglib.h	/^} t_data_img;$/;"	t	typeref:struct:s_data_img
+t_event_list	minilibx-linux/mlx_int.h	/^}				t_event_list;$/;"	t	typeref:struct:s_event_list
+t_img	minilibx-linux/mlx_int.h	/^}				t_img;$/;"	t	typeref:struct:s_img
+t_param	4-events/close_on_esc/close_on_esc.c	/^} t_param;$/;"	t	typeref:struct:s_param	file:
+t_param	4-events/loop/rainbow.c	/^} t_param;$/;"	t	typeref:struct:s_param	file:
+t_win_list	minilibx-linux/mlx_int.h	/^}				t_win_list;$/;"	t	typeref:struct:s_win_list
+t_xpm_col	minilibx-linux/mlx_int.h	/^}				t_xpm_col;$/;"	t	typeref:struct:s_xpm_col
+t_xvar	minilibx-linux/mlx_int.h	/^}				t_xvar;$/;"	t	typeref:struct:s_xvar
+type	minilibx-linux/mlx_int.h	/^	int				type;$/;"	m	struct:s_img
+use_xshm	minilibx-linux/mlx_int.h	/^	int			use_xshm;$/;"	m	struct:s_xvar
+visual	minilibx-linux/mlx_int.h	/^	Visual		*visual;$/;"	m	struct:s_xvar
+width	minilibx-linux/mlx_int.h	/^	int				width;$/;"	m	struct:s_img
+win	4-events/close_on_esc/close_on_esc.c	/^	void	*win;$/;"	m	struct:s_param	file:
+win	4-events/close_on_x/close_on_x.c	/^	void	*win;$/;"	m	struct:s_data	file:
+win	my_libraries/datalib/datalib/datalib.h	/^	void	*win;$/;"	m	struct:s_data
+win1	minilibx-linux/test/main.c	/^void	*win1;$/;"	v
+win1	minilibx-linux/test/new_win.c	/^void *win1;$/;"	v
+win2	minilibx-linux/test/main.c	/^void    *win2;$/;"	v
+win2	minilibx-linux/test/new_win.c	/^void *win2;$/;"	v
+win3	minilibx-linux/test/main.c	/^void    *win3;$/;"	v
+win_count	minilibx-linux/mlx_loop.c	/^static int	win_count(t_xvar *xvar)$/;"	f	file:	signature:(t_xvar *xvar)
+win_list	minilibx-linux/mlx_int.h	/^	t_win_list	*win_list;$/;"	m	struct:s_xvar
+window	minilibx-linux/mlx_int.h	/^	Window				window;$/;"	m	struct:s_win_list
+wm_delete_window	minilibx-linux/mlx_int.h	/^	Atom		wm_delete_window;$/;"	m	struct:s_xvar
+wm_protocols	minilibx-linux/mlx_int.h	/^	Atom		wm_protocols;$/;"	m	struct:s_xvar
+xpm1_x	minilibx-linux/test/main.c	/^int	xpm1_x;$/;"	v
+xpm1_y	minilibx-linux/test/main.c	/^int	xpm1_y;$/;"	v
