@@ -15,24 +15,29 @@
 /* Structure Definitions */
 typedef struct s_sprite
 {
-	t_data_img	*img;
-	int			x_pos;
-	int			y_pos;
-} t_sprite
+	int	color;
+	int	x_pos;
+	int	y_pos;
+} t_sprite;
 
 typedef struct s_param
 {
 	t_data		*data;
+	t_data_img	*img;
 	t_sprite	*sprite;
 } t_param;
 
+void create_img_complete(t_param *p);
+
 /*Function Definitions*/
-int handle_loop(void *data)
+int render(t_param *p)
 {
-	if(data)
-		return (0);
-	else
-		return (0);
+	if(!p)
+		exit(MLX_ERROR);
+	
+	mlx_clear_window(p->data->mlx, p->data->win);
+	mlx_put_image_to_window(p->data->mlx, p->data->win, p->img->img, 0, 0);
+	return (0);
 }
 
 int	handle_destroynotify(t_data *data)
@@ -43,31 +48,17 @@ int	handle_destroynotify(t_data *data)
 	exit(0);
 }
 
-void img_put_square(t_data *img, int size, int x, int y, int color)
+void img_put_square(t_data_img *img, int size, int x, int y, int color)
 {
-    int i;
-
-    if (size < 2)
-        return; // A square must be at least 2x2
-
-    // Top side
-    for (i = 0; i < size; i++)
-        img_put_pixel(img, x + i, y, color);
-
-    // Bottom side
-    for (i = 0; i < size; i++)
-        img_put_pixel(img, x + i, y + size - 1, color);
-
-    // Left and Right sides (excluding corners)
-    for (i = 1; i < size - 1; i++)
-    {
-        img_put_pixel(img, x, y + i, color);               // Left
-        img_put_pixel(img, x + size - 1, y + i, color);     // Right
-    }
+    for(int i = 0; i < size; i++)
+		for(int j = 0; j < size; j++)
+			img_put_pixel(img, x + i, y + j, color);
 }
 
-void move_square(int dir, t_param *param)
+static void move_square(int dir, t_param *param)
 {
+	int *x;
+	int *y;
 	if(!param)
 		exit(MLX_ERROR);
 	switch(dir)
@@ -79,14 +70,24 @@ void move_square(int dir, t_param *param)
 			param->sprite->x_pos -= 10;
 			break;
 		case (UP):
-			param->sprite->y_pos += 10;
-			break;
-		case (DOWN):
 			param->sprite->y_pos -= 10;
 			break;
+		case (DOWN):
+			param->sprite->y_pos += 10;
+			break;
 	}
-	mlx_clear_window(param->data->mlx, param->data->win);
-	mlx_
+	y = &(param->sprite->y_pos);
+	x = &(param->sprite->x_pos);
+	if(*y < 0)
+		*y = 0;
+	if(*y > WINDOW_HEIGTH - SQUARE_SIDE)
+		*y = WINDOW_HEIGTH - SQUARE_SIDE;
+	if(*x < 0)
+		*x = 0;
+	if(*x > WINDOW_LENGTH - SQUARE_SIDE)
+		*x = WINDOW_LENGTH -SQUARE_SIDE;
+	mlx_destroy_image(param->data->mlx, param->img->img);
+	create_img_complete(param);
 }
 
 int handle_keypress(int keycode, t_param *param)
@@ -130,37 +131,36 @@ void set_background(t_data_img *img, int color)
 			img_put_pixel(img, x, y, color);
 }
 
+void create_img_complete(t_param *p)
+{
+	img_create(p->data->mlx, p->img, WINDOW_LENGTH, WINDOW_HEIGTH);
+	img_set_background(p->img, COLOR_ANTIQUEWHITE);
+	img_put_square(p->img, SQUARE_SIDE, p->sprite->x_pos, p->sprite->y_pos, p->sprite->color);
+}
+
 /* MAIN */
 int main(void)
 {
 	t_data		data;
-	t_data_img	back_g;
-	t_data_img	square_img;
+	t_data_img	img;
 	t_sprite	square;
 	t_param		param;
 
-
-	square.img = &square_img;
-	param.data = &data;
-	param.sprite = &sprite;
-
-
 	data = data_init(NULL, WINDOW_LENGTH, WINDOW_HEIGTH, "Move The Square!");
 
-	img_create(data.mlx, &back_g, WINDOW_LENGTH, WINDOW_HEIGTH);
-	img_create(data.mlx, square.img, SQUARE_SIDE, SQUARE_SIDE);
-
-	img_set_background(&back_g, COLOR_ANTIQUEWHITE);
-	img_set_background(square.img, COLOR_BLUE);
-
-	mlx_put_image_to_window(data.mlx, data.win, back_g.img, 0, 0);
-	mlx_put_image_to_window(data.mlx, data.win, square.img, 200, 200);
+	square.color = COLOR_BLUE;
 	square.x_pos = 200;
 	square.y_pos = 200;
 
+	param.data = &data;
+	param.img = &img;
+	param.sprite = &square;
+
+	create_img_complete(&param);
+
 	mlx_hook(data.win, 2, 1L<<0, &handle_keypress, &param);
 	mlx_hook(data.win, 17, 1L<<17, &handle_destroynotify, &data);
-	mlx_loop_hook(data.mlx, &handle_loop, NULL);
+	mlx_loop_hook(data.mlx, &render, &param);
 
 	mlx_loop(data.mlx);
 
