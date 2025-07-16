@@ -1,6 +1,7 @@
 include ../../variables.mk
 
-NAME = rainbow
+NAME = moving_square
+#NAME = rainbow
 
 I_FLAGS = $(addprefix -I, $(LIBRARIES_PATHS))
 L_FLAGS = $(addprefix -L, $(LIBRARIES_PATHS))
@@ -9,13 +10,16 @@ SRCS = $(NAME).c
 
 OBJS = $(SRCS:%.c=%.o)
 
+#include:
+#	$(CC) -E $(I_FLAGS) $(SRCS) -o $(NAME).i
+
 %.o: %.c
 	$(CC) $(CFLAGS) $(I_FLAGS) -c $< -o $@
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $^ $(L_FLAGS) $(LIBS_NAME_FLAGS) -o $@
+	$(CC) $(CFLAGS) $^ $(L_FLAGS) $(LIBS_NAME_FLAGS) -lX11 -o $@
 
 clean:
 	$(RM) $(OBJS)
