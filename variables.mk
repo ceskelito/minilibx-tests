@@ -16,6 +16,6 @@ DATALIB_DIR		= $(ADDITIVE_LIBS)/datalib
 
 # Common Inclusion and Libraries directories
 
-LIBRARIES_PATHS	= $(MLXLIB_DIR) $(IMGLIB_DIR) $(COLORS_DIR) $(DATALIB_DIR)
+LIBRARIES_PATHS	= $(MLXLIB_DIR) $(COLORS_DIR) $(DATALIB_DIR)
 LIBS_NAME_FLAGS	= -lcolors -ldatalib -lmlx_Linux -lXext -lX11 
 
