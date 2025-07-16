@@ -2,7 +2,7 @@
 # define DATALIB_H
 
 # include "mlx.h"
-# include "imglib.h"
+# include "imglib/imglib.h"
 # include <stdlib.h>
 
 # define MLX_ERROR 1

@@ -55,3 +55,4 @@ void img_set_background(t_data_img *img, int color)
 		for(x = 0; x < img->length; x++)
 			img_put_pixel(img, x, y, color);
 }
+
