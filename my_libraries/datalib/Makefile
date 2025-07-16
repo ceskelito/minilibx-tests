@@ -1,10 +1,10 @@
 include ../../variables.mk
 
 NAME = libdatalib.a
-SRCS = datalib.c imglib.c
+SRCS = datalib/datalib.c imglib/imglib.c
 OBJS = $(SRCS:%.c=%.o)
 
-LOC_INC_PATHS = -I../../minilibx-linux
+LOC_INC_PATHS = -I../../minilibx-linux -Idatalib -Iimglib
 
 all : $(NAME)
 

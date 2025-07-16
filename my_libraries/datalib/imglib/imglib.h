@@ -4,10 +4,14 @@
 typedef struct s_data_img
 {
 	void    *img;
-	char    *addr;                                                            
+	char    *addr;
+                                                           
 	int     bpp; // bits per pixel
 	int     line_len;
-	int     endian; 
+	int     endian;
+
+	int		length;
+	int		heigth;
 } t_data_img;
 
 /*
@@ -30,6 +34,7 @@ typedef struct s_data_mlx
 } t_data_mlx
 */ //Don't know if useful, in doubt commented it 
 
+void	img_set_background(t_data_img *img, int color);
 int		img_get_offset(t_data_img *img, int x, int y);
 void	img_put_pixel(t_data_img *img, int x, int y, int color);
 void	img_create(void *mlx, t_data_img *img, int img_length, int img_heigth);

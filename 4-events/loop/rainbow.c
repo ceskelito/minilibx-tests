@@ -21,20 +21,6 @@ void set_background(t_data_img *img, int color)
 			img_put_pixel(img, x, y, color);
 }
 
-void no_set_background(t_data_img *img, int color)
-{
-	char	*dest;
-	int		i;
-
-	dest = img->addr;
-	i = 0;
-	while(dest[i])
-	{
-		dest[i] = color;
-		i++;
-	}
-}
-
 int	handle_destroynotify(t_data *data)
 {
 	mlx_destroy_window(data->mlx, data->win);

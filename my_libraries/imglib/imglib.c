@@ -14,7 +14,7 @@ int img_get_offset(t_data_img *img, int x, int y)
 	if(!img)
 		exit(MLX_ERROR);
 //	      offset for the line	    nbyte = nbit / 8
-	return (y * img->line_len + x * (img->bits_per_pixel / 8));
+	return (y * img->line_len + x * (img->bpp / 8));
 }
 
 void img_put_pixel(t_data_img *img, int x, int y, int color)
@@ -41,3 +41,4 @@ void img_create(void* mlx, t_data_img *img, int img_length, int img_heigth)
 	if(!img->addr)
 		exit(MLX_ERROR);
 }
+

@@ -13,7 +13,6 @@ int img_get_offset(t_data_img *img, int x, int y)
 {
 	if(!img)
 		exit(MLX_ERROR);
-//	      offset for the line	    nbyte = nbit / 8
 	return (y * img->line_len + x * (img->bpp / 8));
 }
 
@@ -40,4 +39,19 @@ void img_create(void* mlx, t_data_img *img, int img_length, int img_heigth)
 										&img->endian);
 	if(!img->addr)
 		exit(MLX_ERROR);
+	img->length = img_length;
+	img->heigth = img_heigth;
+}
+
+void img_set_background(t_data_img *img, int color)
+{
+	int x;
+	int y;
+
+	x = 0;
+	y = 0;
+
+	for(y = 0; y < img->heigth; y++)
+		for(x = 0; x < img->length; x++)
+			img_put_pixel(img, x, y, color);
 }
