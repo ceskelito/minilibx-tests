@@ -4,6 +4,8 @@
 typedef struct s_data_img
 {
 	void    *img;
+
+	char	*filename; // for xml images
 	char    *addr;
                                                            
 	int     bpp; // bits per pixel
